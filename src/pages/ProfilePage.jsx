@@ -40,7 +40,7 @@ const ProfilePage = ({ user }) => {
         />
         <div className="font-medium">
           <p className="text-gray-500">Good</p>
-          <p className="text-gray-300 text-xl">Concistency</p>
+          <p className="text-gray-300 text-xl">Consistency</p>
         </div>
       </div>
     </main>
