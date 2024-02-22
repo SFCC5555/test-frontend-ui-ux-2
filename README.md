@@ -26,7 +26,7 @@ The interface should allow the following actions on a task:
 
 The interface should be based on the following mockup:
 
-![ToDo-App Design](https://dribbble.com/shots/14100356-ToDo-App-UI)
+[ToDo-App Design](https://dribbble.com/shots/14100356-ToDo-App-UI)
 
 PD:
 
@@ -37,12 +37,12 @@ You can carry out the practice using basic tools
 Alternatively, if you prefer, you can use a JavaScript framework.
 - Preferred:
     - Vuejs + Vuetify
-    ![Vuejs](https://vuejs.org/)
-    ![Vuetify](https://vuetifyjs.com/en/)
+    [Vuejs](https://vuejs.org/)
+    [Vuetify](https://vuetifyjs.com/en/)
 
     - React + MUI
-    ![React](https://reactjs.org/)
-    ![MUI](https://mui.com/)
+    [React](https://reactjs.org/)
+    [MUI](https://mui.com/)
 
 
 ### Screenshot
