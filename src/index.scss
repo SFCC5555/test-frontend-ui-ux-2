@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-font: "Roboto", sans-serif;
+
+  --main-color: #f7f9fd;
+  --dark-color: #0c1e53;
+  --business-color: #b533be;
+  --personal-color: #046aff;
+  --main-shadow-color: #d8def5;
+  --dark-shadow-color: #0c1e53;
+  --business-shadow-color: #f9c6ff;
+  --personal-shadow-color: #aeccf8;
+}
+
+@each $color in "main", "dark", "business", "personal" {
+  .#{$color}-bg-color {
+    background-color: var(--#{$color}-color);
+  }
+
+  .#{$color}-border-color {
+    border-color: var(--#{$color}-color);
+  }
+
+  .#{$color}-text-color {
+    color: var(--#{$color}-color);
+  }
+
+  .#{$color}-shadow {
+    box-shadow: 5px 5px 15px 1px var(--#{$color}-shadow-color);
+  }
+}
+
+@for $i from 0 through 100 {
+  .percentage-w-#{$i} {
+    width: percentage($i / 100);
+  }
+}
+
+body {
+  height: 100svh;
+  background-color: var(--main-color);
+  font-family: var() var(--main-font);
+}
