@@ -26,7 +26,10 @@ const HomePage = ({ user, tasks, setTasks }) => {
           ))}
         </section>
       </main>
-      <Link to={"/new-task"} className="fixed right-8 bottom-8 bi bi-plus-circle-fill text-blue-500 text-7xl sm:text-6xl cursor-pointer hover:scale-110" />
+      <Link
+        to={"/new-task"}
+        className="fixed right-8 bottom-8 bi bi-plus-circle-fill text-blue-500 text-7xl sm:text-6xl cursor-pointer hover:scale-110"
+      />
     </div>
   );
 };

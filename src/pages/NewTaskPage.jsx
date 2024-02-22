@@ -50,7 +50,9 @@ const NewTaskPage = ({ setTasks }) => {
           value={taskContent}
           maxLength={99}
         />
-        {error && <p className="-translate-y-7 px-2 text-red-400 self-start">{`Can't be blank`}</p>}
+        {error && (
+          <p className="-translate-y-7 px-2 text-red-400 self-start">{`Can't be blank`}</p>
+        )}
         <div className="flex items-center gap-4">
           <button className="flex gap-4 text-gray-400 border-2 px-3 py-2 rounded-2xl hover:scale-110">
             <i className="bi bi-calendar4" />

@@ -47,13 +47,13 @@ Alternatively, if you prefer, you can use a JavaScript framework.
 
 ### Screenshot
 
-![Mobile]()
-![Desktop]()
+![Mobile](./src/assets/screenshotToDo-AppMobile.jpeg)
+![Desktop](./src/assets/screenshotToDo-AppDesktop.png)
 
 ### Links
 
 - Solution URL: [Github](https://github.com/SFCC5555/test-frontend-ui-ux-2)
-- Live Site URL: [Freelance Platform]()
+- Live Site URL: [ToDo-App](https://todo-app-sfcc.netlify.app/)
 
 ## My process
 
